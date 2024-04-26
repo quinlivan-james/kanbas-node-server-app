@@ -17,7 +17,8 @@ export default [
       availableDate: "Mar 28",
       untilDate: "Mar 30",
       course: "RS101", 
-      questions: []      
+      publish: true,
+      questions: [{_id: "1", question: "2+2", answers: ["4"],type:"Multiple Choice", correctanswer: "4"},]      
     },
     {
         _id: "M102",
@@ -36,7 +37,8 @@ export default [
         dueDate: "Mar 29",
         availableDate: "Mar 28",
         untilDate: "Mar 30",  
-        course: "RS101", 
+        course: "RS101",
+        publish: false, 
         questions: []    
       },
       {
@@ -57,6 +59,7 @@ export default [
         availableDate: "Mar 28",
         untilDate: "Mar 30",
         course: "RS101",
+        publish: false,
         questions: []       
       },
       {
@@ -77,6 +80,7 @@ export default [
         availableDate: "Mar 28",
         untilDate: "Mar 30",
         course: "RS101",
+        publish: false,
         questions: []       
       },
       {
@@ -97,6 +101,7 @@ export default [
         availableDate: "Mar 28",
         untilDate: "Mar 30",
         course: "RS101",
+        publish: false, 
         questions: []       
       },
    
